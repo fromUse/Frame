@@ -1,0 +1,94 @@
+body{
+    padding: 0px;
+    font-family:黑体;
+    font-size: 13px;
+    background: #DFDFDF;
+}
+
+#container{
+
+    width: 850px;
+    /*border: inset 2px;*/
+    -moz-box-shadow:  5px 5px 5px #999999;
+    -webkit-box-shadow:  5px 5px 5px #999999;
+    box-shadow:  5px 5px 5px #999999;
+    margin: auto;
+    background: white;
+    /*min-height: 500px;*/
+    padding-bottom: 100px;
+}
+
+#header{
+
+    width: 800px;
+    height: 100px;
+    /*background: #5dad7b;*/
+    margin-top: 50px;
+}
+#header p{
+    /*text-align: center;*/
+    line-height: 100px;
+    margin-left:350px;
+    font-size: 20px;
+}
+
+#content{
+    width: 800px;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+ }
+
+#content form{
+    line-height: 50px;
+//    background: #002DFF;
+}
+
+#content p{
+    text-align: center;
+    margin-top: 0px;
+    color: red;
+}
+#table{
+
+    padding-top: 30px;
+    width: 800px;
+    /*background: #ad84ab;*/
+    height: auto;
+    margin: auto;
+
+}
+table th,tr,td{
+    text-align: center;
+    width: 800px;
+    border: groove 1px;
+    background: #eefff8;
+}
+
+#table p{
+
+    font-size: 16px;
+    margin-left: 330px;
+}
+
+#footer{
+    margin-top: 50px;
+}
+.input_textL{
+   border: 1px solid #ff3119;
+}
+
+.input_textR{
+    border: 1px solid #19ff56;
+}
+
+.username{
+    float:right;
+    /*display: block;*/
+    margin-right: 150px;
+    background: #34ffd0;
+    font-size: 20px;
+    font-family: 黑体;
+    color: black;
+    text-decoration: none;
+}

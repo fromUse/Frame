@@ -1,0 +1,74 @@
+body{
+
+    padding: 0px;
+    font-family:微软雅黑;
+    font-size: 13px;
+    /*background: #3a7ead;*/
+    background: #f1eaff;
+}
+
+
+#container{
+    width: 500px;
+    height: 320px;
+    /*-moz-box-shadow:  5px 5px 5px #999999;*/
+    /*-webkit-box-shadow:  5px 5px 5px #999999;*/
+    /*box-shadow:  5px 5px 5px #999999;*/
+    /*background: white;*/
+    margin:auto ;
+    margin-top: 200px;
+    background: url("../image/background_Login_shudown.png") no-repeat;
+    padding:10px;
+
+    /*border: 5px solid #dedede;*/
+    /*-moz-border-radius: 15px;      !* Gecko browsers *!*/
+    /*-webkit-border-radius: 15px;   !* Webkit browsers *!*/
+    /*border-radius:15px;            !* W3C syntax *!*/
+}
+#content{
+    width: 100%;
+    height: 100px;
+    /*background: #002DFF;*/
+    /*margin-top: 50px;*/
+}
+
+input{
+    width: 100px;
+    height: 15px;
+    margin-top:6px;
+}
+
+
+#content form{
+    margin-left: 130px;
+    margin-top:80px;
+
+}
+#content form button{
+    width: 150px;
+    height: 20px;
+
+}
+
+a{
+    display: block;
+    width: 100px;
+    height: 20px;
+    background: url("../image/login_button_norlmal.png");
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-left:180px;
+}
+a:hover{
+
+    background-image: url("../image/login_button_on.png");
+}
+
+.mes_error{
+ color: red;
+ font-size: 11px;
+}
+.mes_ok{
+ color: green;
+  font-size: 16px;
+}
